@@ -33,6 +33,7 @@ footer {
 }
 
 .nav-contained {
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -112,17 +113,45 @@ footer {
 #footer-container {
     width: 100%;
     height: 400px;
+    padding-top: 20px;
 
     display: flex;
     flex-direction: row;
 
+}
+
+.lista-footer {
+    width: 20%;
+    height: 100%;
+
+
+    display: flex;
+
     /* debug */
-    background-color: coral;
+    background-color: rgb(169, 0, 0);
+}
+
+.lista-footer ul {
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+}
+
+.lista-footer li {
+    width: 60px;
+    height: 30px;
+}
+
+/* debug per controllare dov'è l'hr*/
+hr {
+    height: 5px;
+    background: black;
 }
 
 #footer-bar {
     width: 100%;
-    height: 50px;
+    padding-bottom: 20px;
+
     display: flex;
     justify-content: space-between;
 }
