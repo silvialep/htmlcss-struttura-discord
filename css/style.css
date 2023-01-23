@@ -23,6 +23,8 @@ main {
 }
 
 footer {
+    /* display: flex;
+    flex-direction: column; */
     background-color: yellow;
 }
 
@@ -102,13 +104,76 @@ footer {
     align-items: center;
 }
 
+/* blocchi da inserire nel main */
 .blocco {
     width: 100%;
     height: 600px;
+
+    display: flex;
+    flex-direction: row;
     /* debug */
     background-color: deeppink;
     border: 1px solid blue;
 }
+
+/* stilizzazione della struttura dei blocchi */
+.immagine {
+    width: 60%;
+    height: 100%;
+    min-width: 300px;
+
+
+    /* debug */
+    border: 1px solid black;
+    background-color: coral;
+}
+
+.testo {
+    width: 40%;
+    height: 100%;
+    
+    /* debug */
+    border: 1px solid black;
+    background-color:deeppink;
+}
+
+#blocco-grande {
+    flex-direction: column;
+    align-items: center;
+}
+
+#blocco-grande .testo {
+    width: 100%;
+    height: 30%;
+
+    border: 1px solid brown;
+    background-color: cadetblue;
+}
+
+#blocco-grande .immagine {
+    width: 100%;
+    height: 70%;
+}
+
+#ultimo-blocco {
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: bisque;
+}
+
+#ultimo-blocco .testo {
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:olive;
+}
+
 
 #footer-container {
     width: 100%;
@@ -117,7 +182,6 @@ footer {
 
     display: flex;
     flex-direction: row;
-
 }
 
 .lista-footer {
