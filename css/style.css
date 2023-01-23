@@ -9,9 +9,18 @@
     background-color: aquamarine;
 }
 
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: blue;
+}
+
 .page-container {
     max-width: 1000px;
-    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-contained {
@@ -46,6 +55,19 @@
 #links-bar ul li {
     width: 60px;
     height: 30px;
+}
 
+.jumbo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
 
+#intestazione-container {
+    width: 650px;
+    height: 300px;
+    /* debug */
+    border: 1px solid black;
+    background-color: blueviolet;
 }
