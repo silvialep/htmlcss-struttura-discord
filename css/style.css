@@ -17,6 +17,15 @@ header {
     background-color: blue;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: yellow;
+}
+
 .page-container {
     max-width: 1000px;
     margin-left: auto;
@@ -30,7 +39,7 @@ header {
     gap: 20px;
 }
 
-#logo, #login {
+.logo, #login, #signin {
     min-width: 100px;
     min-height: 50px;
 }
@@ -62,12 +71,58 @@ header {
     justify-content: center;
     align-items: center;
     height: 500px;
+    padding: 100px;
 }
 
 #intestazione-container {
     width: 650px;
     height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     /* debug */
     border: 1px solid black;
     background-color: blueviolet;
+}
+
+/* colorazione di prova dei contenuti dell'intestazione */
+.prova {
+    width: 200px;
+    height:100px;
+    background-color: chartreuse;
+}
+
+.bottoni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocco {
+    width: 100%;
+    height: 600px;
+    /* debug */
+    background-color: deeppink;
+    border: 1px solid blue;
+}
+
+#footer-container {
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+
+    /* debug */
+    background-color: coral;
+}
+
+#footer-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
