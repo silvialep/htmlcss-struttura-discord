@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px solid red;
+    background-color: aquamarine;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#logo, #login {
+    width: 100px;
+    height: 50px;
+}
+
+#links-bar {
+    max-width: 800px;
+    flex-grow: 1;
+}
+
+#links-bar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+#links-bar ul li {
+    width: 60;
+    height: 30;
+}
