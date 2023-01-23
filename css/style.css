@@ -14,7 +14,7 @@
     margin: 20px auto;
 }
 
-.nav-container {
+.nav-contained {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,24 +22,30 @@
 }
 
 #logo, #login {
-    width: 100px;
-    height: 50px;
+    min-width: 100px;
+    min-height: 50px;
 }
 
 #links-bar {
-    max-width: 800px;
     flex-grow: 1;
+    max-width: 500px;
+    height: 50px;
 }
 
 #links-bar ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 
     list-style-type: none;
+    height: 100%;
+
 }
 
 #links-bar ul li {
-    width: 60;
-    height: 30;
+    width: 60px;
+    height: 30px;
+
+
 }
