@@ -34,12 +34,11 @@ footer {
     margin-right: auto;
 }
 
-.nav-contained {
+#nav-contained {
     padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
 }
 
 .logo, #login, #signin {
@@ -56,8 +55,9 @@ footer {
 #links-bar ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
 
     list-style-type: none;
     height: 100%;
